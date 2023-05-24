@@ -1,4 +1,4 @@
-package Generic.Igra;
+package Core.Generic.Igra;
 
 public class Test {
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class Test {
         // в команду школьников можно добавить и студентов и работников
         // если в классе Team в методе addNewParticipant указан (Participant participant)
         // есть вариант создать три разных класса для каждых возрастов, однако это лишние строки кода
-        // достаточно в классе Team добавить Generic <T>
+        // достаточно в классе Team добавить Core.Generic <T>
         //изменить в строке private List<Participant> participants = new ArrayList<>();
         //<Participant> на <T>
         //в строке public void addNewParticipant (Participant participant) изменить Participant на T

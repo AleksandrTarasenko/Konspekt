@@ -1,4 +1,4 @@
-package Generic.Igra;
+package Core.Generic.Igra;
 
 public class Employee extends Participant{
     public Employee(String name, int age) {

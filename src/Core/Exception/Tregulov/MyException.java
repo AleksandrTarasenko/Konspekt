@@ -1,6 +1,4 @@
-package Exception.Tregulov;
-
-import InterfaceLesson.Test1;
+package Core.Exception.Tregulov;
 
 public class MyException {
     void marafon(int tvozduha, int tempBega) throws PodvernutNoguException {

@@ -1,4 +1,4 @@
-package Exception;
+package Core.Exception;
 
 public class Throwable_Methods {
     /*

@@ -6,7 +6,7 @@ public class MethodsArrayList {
 //  \\метод add//
 //    - добавляет элементы в лист через параметры list.add("ok")
 //    или list.add( 2,"ok") если нужно добавить позицию в определенный индекс(индекс 2 - add("poka");)
-//    если указанный индекс не рядом с последним элементом, выбросится ошибка Exception
+//    если указанный индекс не рядом с последним элементом, выбросится ошибка Core.Exception
 //    нельзя добавлять в ArrayList примитивные типы данных (int), Можно его старший класс Integer
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();

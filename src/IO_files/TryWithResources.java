@@ -40,7 +40,7 @@ public class TryWithResources {
     }
 
     @Override
-    public void close() throws Exception {
+    public void close() throws Core.Exception {
         System.out.println("Машина закрывается...");
     }
 }

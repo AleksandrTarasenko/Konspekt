@@ -1,4 +1,4 @@
-package Generic.Igra;
+package Core.Generic.Igra;
 
 import java.util.ArrayList;
 import java.util.List;

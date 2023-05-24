@@ -1,4 +1,4 @@
-package Generic.Igra;
+package Core.Generic.Igra;
 
 public abstract class Participant {
     private String name;

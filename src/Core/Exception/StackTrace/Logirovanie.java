@@ -1,4 +1,4 @@
-package Exception.StackTrace;
+package Core.Exception.StackTrace;
 
 public class Logirovanie {
     public static void main(String[] args) {

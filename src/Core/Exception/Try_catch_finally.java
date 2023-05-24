@@ -1,4 +1,4 @@
-package Exception;
+package Core.Exception;
 
 public class Try_catch_finally {
     /*
@@ -19,7 +19,7 @@ public class Try_catch_finally {
     передача объявленного исключения в место вызова метода. И то, как на него реагировать уже становится заботой вызывающего этот метод.
 
     Собственные исключения
-    class MyNewException extends Exception {
+    class MyNewException extends Core.Exception {
         MyNewException() {
         }
     }
@@ -79,20 +79,20 @@ readConfig вызывается в (3) строке кода.
     но реагировать на эти исключения будут позже, скопом.
 
     class Example {
-    private List<Exception> exceptions;
+    private List<Core.Exception> exceptions;
 
     // some code
 
     public void parse(String s) {
         try {
             // do smth
-        } catch(Exception ex) {
+        } catch(Core.Exception ex) {
             exceptions.add(ex);
         }
     }
 
     private void handleExceptions()  {
-        for(Exception e : exceptions) {
+        for(Core.Exception e : exceptions) {
             System.err.println("Log exception: " + e);
         }
     }
@@ -103,7 +103,7 @@ readConfig вызывается в (3) строке кода.
 
     Try-with-resources или try-с-ресурсами
     Для этого объявили специальный интерфейс java.lang.AutoCloseable, у которого один метод:
-    void close() throws Exception;
+    void close() throws Core.Exception;
 
     try (FileReader fr = new FileReader(path);
     BufferedReader br = new BufferedReader(fr)) {

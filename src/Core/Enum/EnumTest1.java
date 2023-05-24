@@ -1,4 +1,4 @@
-package Enum;
+package Core.Enum;
 
 public class EnumTest1 {
     public static final int MONDAY = 1;
